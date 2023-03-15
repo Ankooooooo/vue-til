@@ -67,6 +67,7 @@ const submitForm = async () => {
 		router.push({ name: 'main' });
 	} catch (error) {
 		logMessage.value = error;
+		console.log(error);
 	}
 };
 </script>
